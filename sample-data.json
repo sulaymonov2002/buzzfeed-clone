@@ -1,0 +1,108 @@
+{
+  "quizId": "3483j33",
+  "title": "What cheese are you",
+  "subtitle": "This quiz start isn't cheesy or anything like that...",
+  "content": [
+    {
+      "id": 0,
+      "text": "Pick a vacation destination:",
+      "questions": [
+        {
+          "text": "New York",
+          "image": "https://images.unsplash.com/photo-1500916434205-0c77489c6cf7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fG5ldyUyMHlvcmslMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+          "alt": "Photo of Empire State Building during daytime",
+          "credit": "Oliver Niblett"
+        },
+
+        {
+          "text": "Austin",
+          "image": "https://images.unsplash.com/photo-1588993608283-7f0eda4438be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXVzdGlufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+          "alt": "Time-lapse photography car lights on bridge",
+          "credit": "Carlos Alfonso"
+        },
+
+        {
+          "text": "Portland",
+          "image": "https://images.unsplash.com/photo-1546884499-cad820a1b9ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBvcnRsYW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+          "alt": "High-rise buildings",
+          "credit": "Elena Kuchko"
+        },
+
+        {
+          "text": "New Orleans",
+          "image": "https://plus.unsplash.com/premium_photo-1661890514421-f9de1bd3f278?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8TmV3JTIwT3JsZWFuc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+          "alt": "Road with people and house",
+          "credit": "Joao Francisco"
+        }
+      ]
+    },
+
+    {
+      "id": 1,
+      "title": "Pick some food:",
+      "questions": [
+        {
+          "text": "Pizza",
+          "image": "https://images.unsplash.com/photo-1573821663912-569905455b1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+          "alt": "Pepperoni Pizza",
+          "credit": "Alan Hardman"
+        },
+
+        {
+          "text": "Sandwich",
+          "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fHNhbmR3aWNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+          "alt": "ham sandwich on white surface",
+          "credit": "Eaters Collective"
+        },
+
+        {
+          "text": "Pasta",
+          "image": "https://images.unsplash.com/photo-1608219992759-8d74ed8d76eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBhc3RhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+          "alt": "Pasta in tomato sauce",
+          "credit": "Mgg Vitchakorn"
+        },
+
+        {
+          "text": "Hamburger",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGFtYnVyZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+          "alt": "hamburger",
+          "credit": "sk"
+        } 
+      ]
+    },
+
+    {
+      "id": 2,
+      "title": "Pick a home:",
+      "questions": [
+        {
+          "text": "Traditional",
+          "image": "https://images.unsplash.com/photo-1666988727755-37df73d7330c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fFV6YmVraXN0YW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+          "alt": "focus photography of building windows",
+          "credit": "Burgess Milner"
+        },
+
+        {
+          "text": "Modern",
+          "image": "https://images.unsplash.com/photo-1604871000636-074fa5117945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1vZGVybnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+          "alt": "low angle view of building",
+          "credit": "Brandon Giggs"
+        },
+
+        {
+          "text": "House",
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+          "alt": "tress beside white house",
+          "credit": "Phil Hearing"
+        },
+
+        {
+          "text": "Mountains",
+          "image": "https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+          "alt": "brown wooden cabin infront of forest",
+          "credit": "eulavretta"
+        }
+      ]
+    }
+  ]
+}
