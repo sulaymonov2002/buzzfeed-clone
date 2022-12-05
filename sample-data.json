@@ -39,7 +39,7 @@
 
     {
       "id": 1,
-      "title": "Pick some food:",
+      "text": "Pick some food:",
       "questions": [
         {
           "text": "Pizza",
@@ -67,13 +67,13 @@
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGFtYnVyZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
           "alt": "hamburger",
           "credit": "sk"
-        } 
+        }
       ]
     },
 
     {
       "id": 2,
-      "title": "Pick a home:",
+      "text": "Pick a home:",
       "questions": [
         {
           "text": "Traditional",
@@ -103,6 +103,90 @@
           "credit": "eulavretta"
         }
       ]
+    }
+  ],
+  "answers": [
+    {
+      "combination": ["New York", "Pizza", "Traditional"],
+      "text": "Blue Cheese",
+      "image": "https://images.unsplash.com/photo-1570917333569-eb1ad88fd4c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Qmx1ZSUyMENoZWVzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "alt": "blue cheese"
+    },
+
+    {
+      "combination": ["New Orleans", "Pizza", "House"],
+      "text": "Manouri",
+      "image": "https://images.unsplash.com/photo-1570917333569-eb1ad88fd4c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Qmx1ZSUyMENoZWVzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "alt": "blue cheese"
+    },
+
+    {
+      "combination": ["New Orleans", "Pizza", "House"],
+      "text": "Metsovone",
+      "image": "https://images.unsplash.com/photo-1570917333569-eb1ad88fd4c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Qmx1ZSUyMENoZWVzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "alt": "Metsovone"
+    },
+
+    {
+      "combination": ["New Orleans", "Pasta", "Modern"],
+      "text": "Aura",
+      "image": "https://images.unsplash.com/photo-1489908990827-08a75c580832?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8QXVyYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "alt": "Aura"
+    },
+    {
+      "combination": ["New York", "Pizza", "Traditional"],
+      "text": "Blue Cheese",
+      "image": "https://images.unsplash.com/photo-1570917333569-eb1ad88fd4c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Qmx1ZSUyMENoZWVzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "alt": "blue cheese"
+    },
+
+    {
+      "combination": ["New Orleans", "Pizza", "House"],
+      "text": "Manouri",
+      "image": "https://images.unsplash.com/photo-1570917333569-eb1ad88fd4c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Qmx1ZSUyMENoZWVzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "alt": "blue cheese"
+    },
+
+    {
+      "combination": ["New Orleans", "Pizza", "House"],
+      "text": "Metsovone",
+      "image": "https://images.unsplash.com/photo-1570917333569-eb1ad88fd4c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Qmx1ZSUyMENoZWVzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "alt": "Metsovone"
+    },
+
+    {
+      "combination": ["New Orleans", "Pasta", "Modern"],
+      "text": "Aura",
+      "image": "https://images.unsplash.com/photo-1489908990827-08a75c580832?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8QXVyYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "alt": "Aura"
+    },
+
+    {
+      "combination": ["New York", "Pizza", "Traditional"],
+      "text": "Blue Cheese",
+      "image": "https://images.unsplash.com/photo-1570917333569-eb1ad88fd4c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Qmx1ZSUyMENoZWVzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "alt": "blue cheese"
+    },
+
+    {
+      "combination": ["New Orleans", "Pizza", "House"],
+      "text": "Manouri",
+      "image": "https://images.unsplash.com/photo-1570917333569-eb1ad88fd4c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Qmx1ZSUyMENoZWVzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "alt": "blue cheese"
+    },
+
+    {
+      "combination": ["New Orleans", "Pizza", "House"],
+      "text": "Metsovone",
+      "image": "https://images.unsplash.com/photo-1570917333569-eb1ad88fd4c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Qmx1ZSUyMENoZWVzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "alt": "Metsovone"
+    },
+
+    {
+      "combination": ["New Orleans", "Pasta", "Modern"],
+      "text": "Aura",
+      "image": "https://images.unsplash.com/photo-1489908990827-08a75c580832?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8QXVyYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "alt": "Aura"
     }
   ]
 }
