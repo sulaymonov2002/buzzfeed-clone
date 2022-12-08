@@ -1,5 +1,6 @@
 import express, { Request, Response } from "express";
 import axios, { AxiosResponse } from "axios";
+import { QuizData } from "./interfaces";
 
 const PORT = 8000;
 const app = express();
@@ -17,7 +18,7 @@ app.get("/quiz-item", async (req: Request, res: Response) => {
       }
     );
     if (response.status === 200) {
-      const quizItem = await response.data;
+      const quizItem: QuizData = await response.data.data['20bef6ab-f035-4c99-9fcc-3cf19e13b70e'];
       res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
       res.send(quizItem);
     }
