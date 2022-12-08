@@ -23,7 +23,8 @@ interface Question {
   text: string;
   image: string;
   alt: string;
-  credits: string;
+  credit: string;
+
 }
 
 export type { QuizData, Answer, Content, Question };
