@@ -24,7 +24,6 @@ interface Question {
   image: string;
   alt: string;
   credit: string;
-
 }
 
 export type { QuizData, Answer, Content, Question };

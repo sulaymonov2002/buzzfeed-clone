@@ -4,10 +4,16 @@ import QuestionBlock from "./QuestionBlock";
 
 const QuestionsBlock = ({
   quizItem,
+  chosenAnswerItems,
   setChosenAnswerItems,
+  unansweredQuestionIds,
+  setUnansweredQuestionIds,
 }: {
   quizItem: Content;
+  chosenAnswerItems: string[];
   setChosenAnswerItems: Function;
+  unansweredQuestionIds: number[] | undefined;
+  setUnansweredQuestionIds: Function;
 }) => {
   return (
     <>
@@ -18,8 +24,12 @@ const QuestionsBlock = ({
         {quizItem?.questions.map((question: Question, _index) => (
           <QuestionBlock
             key={_index}
+            quizItemId={quizItem.id}
             question={question}
+            chosenAnswerItems={chosenAnswerItems}
             setChosenAnswerItems={setChosenAnswerItems}
+            unansweredQuestionIds={unansweredQuestionIds}
+            setUnansweredQuestionIds={setUnansweredQuestionIds}
           />
         ))}
       </div>

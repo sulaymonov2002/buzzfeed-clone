@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Title from "./components/Title";
-import QuestionsBlock from "./components/QuestionBlock";
+import QuestionsBlock from "./components/QuestionsBlock";
 import { Content, QuizData } from "../interfaces";
 
 const App = () => {
   const [quiz, setQuiz] = useState<QuizData | null>();
   const [chosenAnswerItems, setChosenAnswerItems] = useState<string[]>([]);
+  const [unansweredQuestionIds, setUnansweredQuestionIds] = useState<
+    number[] | undefined
+  >([]);
 
   const fetchData = async () => {
     try {
@@ -21,7 +24,10 @@ const App = () => {
     fetchData();
   }, []);
 
-  console.log(quiz);
+  useEffect(() => {
+    const unansweredIds = quiz?.content?.map(({ id }: Content) => id);
+    setUnansweredQuestionIds(unansweredIds);
+  }, []);
 
   return (
     <div className="app">
@@ -30,7 +36,10 @@ const App = () => {
         <QuestionsBlock
           key={id}
           quizItem={content}
+          chosenAnswerItems={chosenAnswerItems}
           setChosenAnswerItems={setChosenAnswerItems}
+          unansweredQuestionIds={unansweredQuestionIds}
+          setUnansweredQuestionIds={setUnansweredQuestionIds}
         />
       ))}
     </div>
