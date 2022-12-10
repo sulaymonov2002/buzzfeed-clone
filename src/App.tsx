@@ -27,7 +27,20 @@ const App = () => {
   useEffect(() => {
     const unansweredIds = quiz?.content?.map(({ id }: Content) => id);
     setUnansweredQuestionIds(unansweredIds);
-  }, []);
+  }, [quiz]);
+
+  console.log(unansweredQuestionIds);
+
+  useEffect(() => {
+    if (unansweredQuestionIds) {
+      if (unansweredQuestionIds.length <= 0 && chosenAnswerItems.length >= 1) {
+        const answerBlock = document.getElementById("answer-block");
+      }
+      const highestId = Math.min(...unansweredQuestionIds);
+      const highestElement = document.getElementById(String(highestId));
+      highestElement?.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [unansweredQuestionIds]);
 
   return (
     <div className="app">

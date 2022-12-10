@@ -3,7 +3,9 @@ import React from "react";
 
 const AnswerBlock = () => {
     return (
-        <div></div>
+        <div className="answer-block">
+            
+        </div>
     )
 }
 
