@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, createRef } from "react";
 import Title from "./components/Title";
 import QuestionsBlock from "./components/QuestionsBlock";
 import AnswerBlock from "./components/AnswerBlock";
@@ -10,8 +10,18 @@ const App = () => {
   const [unansweredQuestionIds, setUnansweredQuestionIds] = useState<
     number[] | undefined
   >([]);
-
   const [showAnswer, setShowAnswer] = useState<boolean>(false);
+
+  type ReduceType = {
+    id?: {};
+  };
+
+  const refs = unansweredQuestionIds?.reduce<ReduceType | any>((acc, id) => {
+    acc[id as unknown as keyof ReduceType] = createRef<HTMLDivElement | null>();
+    return acc;
+  }, {});
+
+  console.log(refs);
 
   const fetchData = async () => {
     try {
@@ -32,8 +42,6 @@ const App = () => {
     setUnansweredQuestionIds(unansweredIds);
   }, [quiz]);
 
-  console.log(unansweredQuestionIds);
-
   useEffect(() => {
     if (unansweredQuestionIds) {
       if (unansweredQuestionIds.length <= 0 && chosenAnswerItems.length >= 1) {
@@ -45,7 +53,7 @@ const App = () => {
       const highestElement = document.getElementById(String(highestId));
       highestElement?.scrollIntoView({ behavior: "smooth" });
     }
-  }, [unansweredQuestionIds, chosenAnswerItems]);
+  }, [unansweredQuestionIds, chosenAnswerItems, showAnswer]);
 
   return (
     <div className="app">
