@@ -58,14 +58,15 @@ const App = () => {
   return (
     <div className="app">
       <Title title={quiz?.title} subtitle={quiz?.subtitle} />
-      {quiz?.content.map((content: Content, id: Content["id"]) => (
+      {quiz?.content.map((content: Content) => (
         <QuestionsBlock
-          key={id}
+          key={content.id}
           quizItem={content}
           chosenAnswerItems={chosenAnswerItems}
           setChosenAnswerItems={setChosenAnswerItems}
           unansweredQuestionIds={unansweredQuestionIds}
           setUnansweredQuestionIds={setUnansweredQuestionIds}
+          ref={refs[content.id]}
         />
       ))}
 

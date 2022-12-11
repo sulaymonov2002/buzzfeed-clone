@@ -1,23 +1,26 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import { Content, Question } from "../../interfaces";
 import QuestionBlock from "./QuestionBlock";
 
-const QuestionsBlock = ({
-  quizItem,
-  chosenAnswerItems,
-  setChosenAnswerItems,
-  unansweredQuestionIds,
-  setUnansweredQuestionIds,
-}: {
-  quizItem: Content;
-  chosenAnswerItems: string[];
-  setChosenAnswerItems: Function;
-  unansweredQuestionIds: number[] | undefined;
-  setUnansweredQuestionIds: Function;
-}) => {
+const QuestionsBlock = (
+  {
+    quizItem,
+    chosenAnswerItems,
+    setChosenAnswerItems,
+    unansweredQuestionIds,
+    setUnansweredQuestionIds,
+  }: {
+    quizItem: Content;
+    chosenAnswerItems: string[];
+    setChosenAnswerItems: Function;
+    unansweredQuestionIds: number[] | undefined;
+    setUnansweredQuestionIds: Function;
+  },
+  ref: React.LegacyRef<HTMLHeadingElement> | undefined
+) => {
   return (
     <>
-      <h2 className="title-block" id={String(quizItem.id)}>
+      <h2 ref={ref} className="title-block" id={String(quizItem.id)}>
         {quizItem.text}
       </h2>
       <div className="questions-container">
@@ -37,4 +40,4 @@ const QuestionsBlock = ({
   );
 };
 
-export default QuestionsBlock;
+export default forwardRef(QuestionsBlock);
